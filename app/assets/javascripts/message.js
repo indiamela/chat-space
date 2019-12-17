@@ -39,7 +39,7 @@ $(function(){
      return html;
    };
  }
-$('.js-form').on('submit', function(e){
+$('.form__message').on('submit', function(e){
  e.preventDefault();
  var formData = new FormData(this);
  var url = $(this).attr('action')
